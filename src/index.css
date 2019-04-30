@@ -1,7 +1,9 @@
-@import url('./root/root.css'); /* 全局（样式）管理 */
-@import url('./reset/reset.css'); /* 样式重置模块 reset版本 */
-@import url('./tool/tool.css'); /* 工具库 */
-@import url('./layout/layout.css'); /* 基础布局模块 */
+@import url('./root.css'); /* 全局（样式）管理 */
+@import url('./reset.css'); /* 样式重置模块 reset版本 */
+@import url('./tool.css'); /* 工具库 */
+@import url('./layout.css'); /* 基础布局模块 */
+@import url('./whmp.css'); /* 边距库（宽高内外） */
+
 /* 动画库 */
 
 /* 页面初始化配置 */

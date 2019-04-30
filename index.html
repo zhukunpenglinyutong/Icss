@@ -10,19 +10,19 @@
 <body>
   <div style="padding:20px;">
     <h2>情景一：父容器中有一个子容器</h2>
-    <div class="wai lay right bottom">
+    <div class="wai">
       <div class="nei200">1</div>
     </div>
   </div>
 
   <div style="padding:20px;">
       <h2>情景二：父容器中有多个子容器</h2>
-      <div class="wai lay space1">
-        <div class="nei50">1</div>
-        <div class="nei50">2</div>
-        <div class="nei50">3</div>
+      <div class="wai flex space2">
+        <div class="nei200">1</div>
+        <div class="nei200">2</div>
+        <!-- <div class="nei50">3</div>
         <div class="nei50">4</div>
-        <div class="nei50">5</div>
+        <div class="nei50">5</div> -->
       </div>
     </div>
 
@@ -35,6 +35,11 @@
     .nei200 {
       width: 200px;
       height: 200px;
+      background-color: #33FF00;
+    }
+    .nei250 {
+      width: 250px;
+      height: 250px;
       background-color: #33FF00;
     }
     .nei50 {
